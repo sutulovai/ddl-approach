@@ -1,0 +1,4 @@
+rootProject.name = 'ddl-approach'
+
+include 'hibernate'
+include 'migrations'

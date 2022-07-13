@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:h2:~/migrations;AUTO_SERVER=TRUE
+    username: migrations
+    password: flywayPassword
+    driverClassName: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: validate
